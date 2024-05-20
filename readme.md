@@ -22,3 +22,4 @@ Check the `makefile`.
 
 - generally improve/modernize build
 - use `pyproject.toml`
+- add examples of how a library developer would build wheels for a project like this and publish to PyPI
