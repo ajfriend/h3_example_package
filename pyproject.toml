@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "h3vecex"
+version = "0.0.1"
+authors = [{name = "AJ Friend"}]
+description = "A simple package using Cython."
+readme = "readme.md"
+dependencies = [
+    "h3==4.0.0b5",
+]
