@@ -1,5 +1,5 @@
 import numpy as np
-from cython_example import latlng_to_cell_vect
+from h3_example_package.geo import latlng_to_cell_vect
 
 
 def test_cython_api():

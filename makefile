@@ -2,8 +2,8 @@ init: purge
 	python -m venv env
 	env/bin/pip install --upgrade pip wheel setuptools
 	env/bin/pip install -r requirements.txt
-	# 	env/bin/pip install .
-	env/bin/python setup.py build_ext --inplace
+	env/bin/pip install .
+# 	env/bin/python setup.py build_ext
 
 purge:
 	-@rm -rf env
