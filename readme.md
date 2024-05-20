@@ -2,6 +2,14 @@
 
 An example repo for building a Python package on top of the `h3-py` Cython API.
 
+We hope this example will empower users to customize `h3-py` to their needs,
+without having the hassle of building all the `h3-py` code from scratch.
+
+Example projects:
+
+- supply a set of vectorized `h3-py` functions
+- a different approach to the `h3-py` API
+
 # Remote installation
 
 A user should be able to install this package remotely with commands like:
