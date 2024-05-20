@@ -15,8 +15,3 @@ def test_cython_api():
     latlng_to_cell_vect(lats, lngs, res, out)
 
     assert out[0] == 617284541015654399
-    print(f'Boom: {out[0]}')
-
-
-if __name__ == '__main__':
-    test_cython_api()
