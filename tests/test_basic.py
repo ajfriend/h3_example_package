@@ -11,7 +11,7 @@ def test_cython_api():
 
     lats = np.array(lats, dtype=np.float64)
     lngs = np.array(lngs, dtype=np.float64)
-    out = np.zeros(len(lats), dtype="uint64")
+    out = np.zeros(len(lats), dtype='uint64')
     latlng_to_cell_vect(lats, lngs, res, out)
 
     assert out[0] == 617284541015654399

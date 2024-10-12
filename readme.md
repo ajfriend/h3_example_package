@@ -19,7 +19,7 @@ A user should be able to install this package remotely with commands like:
 
 ```
 pip install --upgrade pip wheel setuptools
-pip install cython h3==4.0.0b5
+pip install cython h3==4.1.0b3
 pip install git+https://github.com/ajfriend/h3_example_package
 ```
 

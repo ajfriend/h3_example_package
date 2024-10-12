@@ -1,5 +1,5 @@
 cython
-h3==4.0.0b5
+h3==4.1.0b3
 
 numpy
 pytest
