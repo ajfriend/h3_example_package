@@ -32,6 +32,6 @@ Check the `makefile`.
 # TODOs
 
 - generally improve/modernize build
-- use `pyproject.toml`
+- use `pyproject.toml`: https://github.com/ajfriend/h3_example_package/issues/1
 - add examples of how a library developer would build wheels for a project like this and publish to PyPI
 - give example of using the `h3core` C functions directly; not just the Cython functions which may be doing extra processing that users would like to avoid
